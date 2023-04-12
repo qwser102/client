@@ -20,7 +20,7 @@ public class Client {
         try {
             System.out.println("正在连接服务端...");
             //创建一个新的接口来获取一个接口
-            socket = new Socket("localhost", 8088);//链接的地址与，端口的地址
+            socket = new Socket("sw-server", 8088);//链接的地址与，端口的地址
             System.out.println("与服务端建立连接!");
         } catch (IOException ioException) {
             ioException.printStackTrace();
